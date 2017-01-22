@@ -35,3 +35,19 @@ nav li::after{
 	content: "|";
 	
 }
+.box{
+	margin-right: auto;
+	margin-left:auto;
+	position: relative;
+	border: 10px green dotted;
+	height: 300px;
+	width:600px;
+}
+img .cat{
+	text-align: top left;
+
+
+}
+img .dog{
+	text-align:bottom right;
+}
