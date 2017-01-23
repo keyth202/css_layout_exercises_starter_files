@@ -35,19 +35,31 @@ nav li::after{
 	content: "|";
 	
 }
+nav a:hover {
+  color: black;
+}
+main{
+	padding-top: 180px;
+}
 .box{
 	margin-right: auto;
 	margin-left:auto;
-	position: relative;
+	position:relative;
 	border: 10px green dotted;
 	height: 300px;
 	width:600px;
 }
-img .cat{
-	text-align: top left;
+.cat{
+	position:absolute;
+	width:200px;
+	top:-100px;
+	left:-100px;
 
 
 }
-img .dog{
-	text-align:bottom right;
+.dog{
+	position: absolute;
+	width:200px;
+	bottom: -120px;
+	right:-110px;
 }
